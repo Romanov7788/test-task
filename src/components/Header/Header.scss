@@ -1,0 +1,88 @@
+$primary-color: #29292e;
+$accent-color: #e11d48;
+$text-color: #f9fafb;
+
+.header {
+  height: 64px;
+  background-color: $primary-color;
+  color: $text-color;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+
+  &__container {
+    width: 100%;
+    max-width: 944px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+
+.logo img {
+  width: 30px;
+  height: 30px;
+}
+
+.navList {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    position: relative;
+  }
+
+  .navList__text {
+    padding: 8px 12px;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    color: $text-color;
+    font-weight: 500;
+    font-size: 12px;
+    transition: color 0.3s ease, font-weight 0.3s ease;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -15px;
+      left: 50%;
+      width: 50%;
+      height: 2px;
+      background: $accent-color;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.3s ease, width 0.3s ease;
+    }
+
+    &:hover::after {
+      opacity: 1;
+      width: 100%;
+    }
+
+    &.active {
+      font-weight: 600;
+
+      &::after {
+        opacity: 1;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.user-container {
+  display: flex;
+  align-items: center;
+}
+
+.user-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+}

@@ -1,0 +1,47 @@
+.webcam-container {
+  width: 627px;
+  height: 347px;
+  background-color: black;
+  overflow: hidden;
+  position: relative;
+}
+
+.toggle-webcam-btn {
+  padding: 8px;
+  font-size: 14px;
+  background-color: #f43f5e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #521f28;
+  }
+}
+
+.webcam-video {
+  width: 100%;
+}
+
+.webcam-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.webcam-btn {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #f43f5e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+
+  &:hover {
+    background-color: #521f28;
+  }
+}

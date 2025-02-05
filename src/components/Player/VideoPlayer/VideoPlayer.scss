@@ -1,0 +1,28 @@
+.video-container {
+  width: 627px;
+  height: 347px;
+  background-color: black;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-js {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+
+.vjs-control-bar {
+  display: flex !important; 
+  opacity: 1 !important;
+  bottom: 0;
+}
+
+
+.vjs-button {
+  display: block !important;
+}
