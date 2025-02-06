@@ -5,7 +5,7 @@ This React Video Player is a web application designed for managing and playing v
 ## Usage :
 
 Click:
-[Go to site](test-task-xi-dun.vercel.app)
+[Go to site](https://test-task-xi-dun.vercel.app)
 
 
 ## Entities:
