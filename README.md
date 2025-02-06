@@ -2,6 +2,11 @@
 
 This React Video Player is a web application designed for managing and playing videos using React, Video.js, and MobX-state-tree. The app allows users to switch between preloaded videos and a webcam stream, as well as add custom video links dynamically.
 
+## Usage :
+
+Click:
+[Go to site](test-task-xi-dun.vercel.app)
+
 
 ## Entities:
 
@@ -101,4 +106,4 @@ SCSS for styling and responsive design.
 
 Screenshots:
 
-![Website Interface](/public/photo.png)
+![Website Interface](/public/Screenshots.png)
