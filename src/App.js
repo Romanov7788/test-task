@@ -1,6 +1,6 @@
-import "./App.css";
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Home from "./pages/Home";
@@ -8,6 +8,8 @@ import Cursos from "./pages/Cursor";
 import VideoContainer from "./components/VideoContainer";
 import Tabs from "./components/Tabs";
 import useVideoPlayer from "./utils/useVideoPlayer";
+
+import "./App.css";
 
 const App = () => {
   const {

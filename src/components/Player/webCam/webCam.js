@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+
 import './webCam.scss';
 
 const WebcamPlayer = () => {
